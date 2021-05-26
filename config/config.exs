@@ -28,7 +28,7 @@ config :phoenix, :json_library, Jason
 
 # Configures CorsPlug https://github.com/mschae/cors_plug
 config :cors_plug,
-  origin: ["https://post-api.vercel.app"]
+  origin: ["https://post-api.vercel.app/test"]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
