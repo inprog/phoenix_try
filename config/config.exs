@@ -26,7 +26,7 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-Configures CorsPlug https://github.com/mschae/cors_plug
+# Configures CorsPlug https://github.com/mschae/cors_plug
 config :cors_plug,
   origin: ["https://post-api.vercel.app"]
   max_age: 86400,
