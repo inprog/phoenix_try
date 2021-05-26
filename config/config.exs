@@ -29,8 +29,8 @@ config :phoenix, :json_library, Jason
 # Configures CorsPlug https://github.com/mschae/cors_plug
 config :cors_plug,
   origin: ["https://post-api.vercel.app"],
-  max_age: 86400,
-  methods: ["GET", "POST", "PATCH", "PUT"]
+  # max_age: 86400,
+  # methods: ["GET", "POST", "PATCH", "PUT"]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
